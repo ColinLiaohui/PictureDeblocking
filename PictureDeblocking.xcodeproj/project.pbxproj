@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B30C1611DD40B6700F6EEBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30C1601DD40B6700F6EEBD /* main.m */; };
+		3B30C1641DD40B6700F6EEBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30C1631DD40B6700F6EEBD /* AppDelegate.m */; };
+		3B30C1671DD40B6700F6EEBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30C1661DD40B6700F6EEBD /* ViewController.m */; };
+		3B30C16A1DD40B6700F6EEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B30C1681DD40B6700F6EEBD /* Main.storyboard */; };
+		3B30C16C1DD40B6700F6EEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B30C16B1DD40B6700F6EEBD /* Assets.xcassets */; };
+		3B30C16F1DD40B6700F6EEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B30C16D1DD40B6700F6EEBD /* LaunchScreen.storyboard */; };
+		3B30C17A1DD40B6800F6EEBD /* PictureDeblockingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30C1791DD40B6800F6EEBD /* PictureDeblockingTests.m */; };
+		3B30C1851DD40B6800F6EEBD /* PictureDeblockingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30C1841DD40B6800F6EEBD /* PictureDeblockingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B30C1761DD40B6800F6EEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B30C1541DD40B6700F6EEBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B30C15B1DD40B6700F6EEBD;
+			remoteInfo = PictureDeblocking;
+		};
+		3B30C1811DD40B6800F6EEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B30C1541DD40B6700F6EEBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B30C15B1DD40B6700F6EEBD;
+			remoteInfo = PictureDeblocking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B30C15C1DD40B6700F6EEBD /* PictureDeblocking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureDeblocking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B30C1601DD40B6700F6EEBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B30C1621DD40B6700F6EEBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B30C1631DD40B6700F6EEBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B30C1651DD40B6700F6EEBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B30C1661DD40B6700F6EEBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B30C1691DD40B6700F6EEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B30C16B1DD40B6700F6EEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B30C16E1DD40B6700F6EEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B30C1701DD40B6700F6EEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B30C1751DD40B6800F6EEBD /* PictureDeblockingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureDeblockingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B30C1791DD40B6800F6EEBD /* PictureDeblockingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureDeblockingTests.m; sourceTree = "<group>"; };
+		3B30C17B1DD40B6800F6EEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B30C1801DD40B6800F6EEBD /* PictureDeblockingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureDeblockingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B30C1841DD40B6800F6EEBD /* PictureDeblockingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureDeblockingUITests.m; sourceTree = "<group>"; };
+		3B30C1861DD40B6800F6EEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B30C1591DD40B6700F6EEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30C1721DD40B6800F6EEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30C17D1DD40B6800F6EEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B30C1531DD40B6700F6EEBD = {
+			isa = PBXGroup;
+			children = (
+				3B30C15E1DD40B6700F6EEBD /* PictureDeblocking */,
+				3B30C1781DD40B6800F6EEBD /* PictureDeblockingTests */,
+				3B30C1831DD40B6800F6EEBD /* PictureDeblockingUITests */,
+				3B30C15D1DD40B6700F6EEBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B30C15D1DD40B6700F6EEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B30C15C1DD40B6700F6EEBD /* PictureDeblocking.app */,
+				3B30C1751DD40B6800F6EEBD /* PictureDeblockingTests.xctest */,
+				3B30C1801DD40B6800F6EEBD /* PictureDeblockingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B30C15E1DD40B6700F6EEBD /* PictureDeblocking */ = {
+			isa = PBXGroup;
+			children = (
+				3B30C1621DD40B6700F6EEBD /* AppDelegate.h */,
+				3B30C1631DD40B6700F6EEBD /* AppDelegate.m */,
+				3B30C1651DD40B6700F6EEBD /* ViewController.h */,
+				3B30C1661DD40B6700F6EEBD /* ViewController.m */,
+				3B30C1681DD40B6700F6EEBD /* Main.storyboard */,
+				3B30C16B1DD40B6700F6EEBD /* Assets.xcassets */,
+				3B30C16D1DD40B6700F6EEBD /* LaunchScreen.storyboard */,
+				3B30C1701DD40B6700F6EEBD /* Info.plist */,
+				3B30C15F1DD40B6700F6EEBD /* Supporting Files */,
+			);
+			path = PictureDeblocking;
+			sourceTree = "<group>";
+		};
+		3B30C15F1DD40B6700F6EEBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B30C1601DD40B6700F6EEBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B30C1781DD40B6800F6EEBD /* PictureDeblockingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B30C1791DD40B6800F6EEBD /* PictureDeblockingTests.m */,
+				3B30C17B1DD40B6800F6EEBD /* Info.plist */,
+			);
+			path = PictureDeblockingTests;
+			sourceTree = "<group>";
+		};
+		3B30C1831DD40B6800F6EEBD /* PictureDeblockingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B30C1841DD40B6800F6EEBD /* PictureDeblockingUITests.m */,
+				3B30C1861DD40B6800F6EEBD /* Info.plist */,
+			);
+			path = PictureDeblockingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B30C15B1DD40B6700F6EEBD /* PictureDeblocking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B30C1891DD40B6800F6EEBD /* Build configuration list for PBXNativeTarget "PictureDeblocking" */;
+			buildPhases = (
+				3B30C1581DD40B6700F6EEBD /* Sources */,
+				3B30C1591DD40B6700F6EEBD /* Frameworks */,
+				3B30C15A1DD40B6700F6EEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureDeblocking;
+			productName = PictureDeblocking;
+			productReference = 3B30C15C1DD40B6700F6EEBD /* PictureDeblocking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B30C1741DD40B6800F6EEBD /* PictureDeblockingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B30C18C1DD40B6800F6EEBD /* Build configuration list for PBXNativeTarget "PictureDeblockingTests" */;
+			buildPhases = (
+				3B30C1711DD40B6800F6EEBD /* Sources */,
+				3B30C1721DD40B6800F6EEBD /* Frameworks */,
+				3B30C1731DD40B6800F6EEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B30C1771DD40B6800F6EEBD /* PBXTargetDependency */,
+			);
+			name = PictureDeblockingTests;
+			productName = PictureDeblockingTests;
+			productReference = 3B30C1751DD40B6800F6EEBD /* PictureDeblockingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B30C17F1DD40B6800F6EEBD /* PictureDeblockingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B30C18F1DD40B6800F6EEBD /* Build configuration list for PBXNativeTarget "PictureDeblockingUITests" */;
+			buildPhases = (
+				3B30C17C1DD40B6800F6EEBD /* Sources */,
+				3B30C17D1DD40B6800F6EEBD /* Frameworks */,
+				3B30C17E1DD40B6800F6EEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B30C1821DD40B6800F6EEBD /* PBXTargetDependency */,
+			);
+			name = PictureDeblockingUITests;
+			productName = PictureDeblockingUITests;
+			productReference = 3B30C1801DD40B6800F6EEBD /* PictureDeblockingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B30C1541DD40B6700F6EEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Colin;
+				TargetAttributes = {
+					3B30C15B1DD40B6700F6EEBD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8NVN7R42Y6;
+						ProvisioningStyle = Automatic;
+					};
+					3B30C1741DD40B6800F6EEBD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8NVN7R42Y6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B30C15B1DD40B6700F6EEBD;
+					};
+					3B30C17F1DD40B6800F6EEBD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8NVN7R42Y6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B30C15B1DD40B6700F6EEBD;
+					};
+				};
+			};
+			buildConfigurationList = 3B30C1571DD40B6700F6EEBD /* Build configuration list for PBXProject "PictureDeblocking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B30C1531DD40B6700F6EEBD;
+			productRefGroup = 3B30C15D1DD40B6700F6EEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B30C15B1DD40B6700F6EEBD /* PictureDeblocking */,
+				3B30C1741DD40B6800F6EEBD /* PictureDeblockingTests */,
+				3B30C17F1DD40B6800F6EEBD /* PictureDeblockingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B30C15A1DD40B6700F6EEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30C16F1DD40B6700F6EEBD /* LaunchScreen.storyboard in Resources */,
+				3B30C16C1DD40B6700F6EEBD /* Assets.xcassets in Resources */,
+				3B30C16A1DD40B6700F6EEBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30C1731DD40B6800F6EEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30C17E1DD40B6800F6EEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B30C1581DD40B6700F6EEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30C1671DD40B6700F6EEBD /* ViewController.m in Sources */,
+				3B30C1641DD40B6700F6EEBD /* AppDelegate.m in Sources */,
+				3B30C1611DD40B6700F6EEBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30C1711DD40B6800F6EEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30C17A1DD40B6800F6EEBD /* PictureDeblockingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B30C17C1DD40B6800F6EEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B30C1851DD40B6800F6EEBD /* PictureDeblockingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B30C1771DD40B6800F6EEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B30C15B1DD40B6700F6EEBD /* PictureDeblocking */;
+			targetProxy = 3B30C1761DD40B6800F6EEBD /* PBXContainerItemProxy */;
+		};
+		3B30C1821DD40B6800F6EEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B30C15B1DD40B6700F6EEBD /* PictureDeblocking */;
+			targetProxy = 3B30C1811DD40B6800F6EEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B30C1681DD40B6700F6EEBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B30C1691DD40B6700F6EEBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B30C16D1DD40B6700F6EEBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B30C16E1DD40B6700F6EEBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B30C1871DD40B6800F6EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B30C1881DD40B6800F6EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B30C18A1DD40B6800F6EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				INFOPLIST_FILE = PictureDeblocking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colin.PictureDeblocking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B30C18B1DD40B6800F6EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				INFOPLIST_FILE = PictureDeblocking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colin.PictureDeblocking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B30C18D1DD40B6800F6EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				INFOPLIST_FILE = PictureDeblockingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colin.PictureDeblockingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureDeblocking.app/PictureDeblocking";
+			};
+			name = Debug;
+		};
+		3B30C18E1DD40B6800F6EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				INFOPLIST_FILE = PictureDeblockingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colin.PictureDeblockingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureDeblocking.app/PictureDeblocking";
+			};
+			name = Release;
+		};
+		3B30C1901DD40B6800F6EEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				INFOPLIST_FILE = PictureDeblockingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colin.PictureDeblockingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PictureDeblocking;
+			};
+			name = Debug;
+		};
+		3B30C1911DD40B6800F6EEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8NVN7R42Y6;
+				INFOPLIST_FILE = PictureDeblockingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colin.PictureDeblockingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PictureDeblocking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B30C1571DD40B6700F6EEBD /* Build configuration list for PBXProject "PictureDeblocking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30C1871DD40B6800F6EEBD /* Debug */,
+				3B30C1881DD40B6800F6EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B30C1891DD40B6800F6EEBD /* Build configuration list for PBXNativeTarget "PictureDeblocking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30C18A1DD40B6800F6EEBD /* Debug */,
+				3B30C18B1DD40B6800F6EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B30C18C1DD40B6800F6EEBD /* Build configuration list for PBXNativeTarget "PictureDeblockingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30C18D1DD40B6800F6EEBD /* Debug */,
+				3B30C18E1DD40B6800F6EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B30C18F1DD40B6800F6EEBD /* Build configuration list for PBXNativeTarget "PictureDeblockingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B30C1901DD40B6800F6EEBD /* Debug */,
+				3B30C1911DD40B6800F6EEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B30C1541DD40B6700F6EEBD /* Project object */;
+}
